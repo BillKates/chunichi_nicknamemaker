@@ -1,0 +1,31 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>中日ドラゴンズの助っ人外国人でニックネームメーカー</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> <!-- CSSファイルのリンクを追加 -->
+</head>
+<body>
+    <div id="app">
+        <p class="d-title">
+            {{ appName }}
+        </p>
+        
+        <p class="d-line-1">
+            あなたのニックネームは
+        </p>
+        <p class="d-line-2">
+            {{ nickname }}
+        </p>
+        <p class="d-line-3">
+            です!!
+        </p>
+    </div>
+    <!-- Vue.js 3 の CDN リンク -->
+    <script src="https://unpkg.com/vue@next" defer></script>
+    <!-- main.js の正しいパスを指定 -->
+    <script src="./src/main.js" defer></script>
+</body>
+</html>
